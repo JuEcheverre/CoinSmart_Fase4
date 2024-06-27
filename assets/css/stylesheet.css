@@ -1,0 +1,85 @@
+
+.cabecalho{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    background-color: #9BD6CC;
+}
+.nav-link {
+    color: #ffffff;
+}
+.nav-link:hover{
+    color: #1B9777;
+}
+.sobre {
+    color: #5071a8;
+    font: lighter;
+    font-weight: 200 ;
+    font-size: medium;
+}
+.mb-4{font-weight: 200;
+    font-size: large;
+
+}
+
+.btn-primary{
+    background-color:#4699d9dc;
+    border-color:  #4699d9dc;
+}
+.btn-primary:hover{
+    background-color: #d7e3ec;
+    border-color: #4699d9dc;
+    color: #4699d9dc;
+
+}
+
+.my-title {
+    font-weight: 700;
+    
+}
+.sobre {
+    min-height: 60vh;
+}
+.card {
+    width: 92%;
+    margin: 15px 0;
+}
+.carousel-caption{
+    color: #ffffff;
+}
+.custom-carousel {
+    max-width: 547px; 
+    max-height: 500px; 
+    margin: 0 auto; 
+    overflow: hidden; 
+}
+
+.custom-carousel img {
+    width: 100%; 
+    height: auto; 
+}
+
+
+.icon-large {
+    font-size: 3rem; /* Tamanho inicial */
+    transition: color 0.3s ease, transform 0.3s ease; /* Transições suaves de cor e transformação */
+}
+
+.icon-large:hover {
+    color: #9BD6CC; /* Nova cor ao passar o mouse */
+    transform: scale(1.5); /* Aumenta o tamanho em 10% ao passar o mouse */
+}
+
+
+.icon-contato {
+    color: #5071a8; 
+    transition: color 0.3s ease; 
+}
+
+.icon-contato:hover {
+    color: #9BD6CC; 
+}
+
